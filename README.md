@@ -2,7 +2,7 @@
 Our approach uses mmdetection, some modules and code refer to mmdetection(https://github.com/open-mmlab/mmdetection)
 
 ## Datasets
-The additional annotation dataset will be fully open-sourced after the publication of the paper.
+The additional annotation dataset will be fully open-sourced after the publication of our paper.
 
 ## Method
 
