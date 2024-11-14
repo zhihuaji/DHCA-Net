@@ -702,15 +702,6 @@ class CascadeRoIHead(BaseRoIHead):
         bbox_assigner = self.bbox_assigner[stage]
         bbox_sampler = self.bbox_sampler[stage]
 
-        # for i in range(len(batch_gt_instances['batch_gt_instances_abnormal'])):
-        #     # 获取当前 InstanceData 对象的 labels_stage2 和 labels
-        #     labels_temp = batch_gt_instances['batch_gt_instances_abnormal'][i].labels_temp
-        #     labels_single_multi = batch_gt_instances['batch_gt_instances_abnormal'][i].labels
-        #     labels = torch.where(labels_single_multi == 1, labels_temp + 11, labels_temp)
-        #     # 更新 labels_temp 和 labels
-        #     batch_gt_instances['batch_gt_instances_abnormal'][i].labels_temp = labels_temp
-        #     batch_gt_instances['batch_gt_instances_abnormal'][i].labels = labels
-
         proposal_sampler = Proposal_Sampler(bbox_assigner=bbox_assigner,
                                             bbox_sampler=bbox_sampler,
                                             batch_gt_instances=batch_gt_instances,
