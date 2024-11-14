@@ -1,7 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import List, Sequence, Tuple, Union
-# import os
-# os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
