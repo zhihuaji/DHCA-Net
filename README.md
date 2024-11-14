@@ -6,6 +6,6 @@ The additional annotation dataset will be fully open-sourced after the publicati
 
 ## Method
 
-Our overall framework is implemented in [mmdet/models/roi_heads/cascade_roi_head]. The implementation of the IPCA and HMWC modules are in [mmdet/models/models/roi_heads/feature_attention.py] and [mmdet/models/models/roi_heads/contractive_loss.py] respectively.
+Our overall framework is implemented in [mmdet/models/roi_heads/cascade_roi_head]. The implementation of the IPCA and HMWC modules are in [mmdet/models/roi_heads/feature_attention.py] and [mmdet/models/roi_heads/contractive_loss.py] respectively.
 
 
